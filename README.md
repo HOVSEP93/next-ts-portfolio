@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/83192247/167336030-6527f872-1af3-4b0d-a9de-0f136b42ed6c.png)
+
 ------------
 
 ### **Source code for my little corner of the internet.**
