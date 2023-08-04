@@ -1,4 +1,4 @@
-import { useRef } from "react";
+yimport { useRef } from "react";
 
 // toastify
 import { ToastContainer, toast } from "react-toastify";
@@ -13,7 +13,7 @@ const MessageComponent = () => {
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        emailjs.sendForm("service_id", "template_id", form.current ?? "", "4f6t7c0ElZ-FA4J20").then(
+        emailjs.sendForm("service_id", "template_id", form.current ?? "", "").then(
             (result: any) => {
                 //   console.log(result.text);
                 toast.success("message sent successfully", {
